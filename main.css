@@ -1,3 +1,4 @@
 body{
     background-image: linear-gradient(to left, pink 10%, violet 90%);
+    margin:0;
 }
