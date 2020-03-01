@@ -47,13 +47,13 @@
     
 // }
 
-result="";
-var i=0;
-do{
-    i=i+1;
-    result=result+i;
-}while(i<5);
-console.log(result);
+// result="";
+// var i=0;
+// do{
+//     i=i+1;
+//     result=result+i;
+// }while(i<5);
+// console.log(result);
 
     
 
@@ -86,11 +86,11 @@ console.log(result);
 // }
 // multiply()
 
- function add(x,y){
-     var c= x + y;
-console.log(c);
-     }
-     add(15,2);
+//  function add(x,y){
+//      var c= x + y;
+// console.log(c);
+//      }
+//      add(15,2);
     
     
 //    var g='global';
@@ -102,5 +102,70 @@ console.log(c);
 //     console.log(l);
 // }
 // app()
+
+
+
+
+
+
+
+// practice
+
+var a;
+console.log(typeof("hey"));
+console.log(typeof("%"));
+console.log(typeof(9));
+console.log(typeof(true));
+console.log(typeof(null));
+console.log(typeof(a));
+
+
+//ifelse
+var x=10;
+if(x<0){
+    console.log("x is negative");
+}else if(x>0){
+    console.log("x is positive");
+}else{
+    console.log("x is zero");
+    
+}
+//switch
+var animal='dog';
+switch(animal){
+    case 'cat':
+        console.log("meow");
+        
+     case 'hey':
+         console.log("bark");
+    
+     default :
+     console.log("broken");
+            
+}
+//while
+var x=0;
+while(x<5){
+    console.log("current x is "+x);
+    x++;
+    
+}
+//dowhile
+var x=0;
+result=0;
+do{
+    x++;
+    result=result+x;
+}while(x<10){
+    console.log(result);    
+}
+
+//for
+var age=10;
+for(var i=0;i<age;i++){
+    console.log("your age is "+i);
+    
+}
+
 
 
